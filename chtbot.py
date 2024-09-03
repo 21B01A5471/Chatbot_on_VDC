@@ -16,7 +16,7 @@ nltk.download('wordnet') # first-time use only
 
 
 #Reading in the corpus
-with open('C:/Users/nukal/OneDrive/Documents/vdc para.txt', 'r', encoding='utf8', errors='ignore') as fin:
+with open('para.txt', 'r', encoding='utf8', errors='ignore') as fin:
     raw = fin.read().lower()
     
 #TOkenisation
